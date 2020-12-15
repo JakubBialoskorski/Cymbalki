@@ -379,6 +379,7 @@
 			baseConfigurationReference = A7090BCB3EA293DACC736215 /* Pods-Cymbalki.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 9ZJ7PL62MN;
 				INFOPLIST_FILE = Cymbalki/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -399,6 +400,7 @@
 			baseConfigurationReference = 41C7CB735E858EFBD5268ECD /* Pods-Cymbalki.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 9ZJ7PL62MN;
 				INFOPLIST_FILE = Cymbalki/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;

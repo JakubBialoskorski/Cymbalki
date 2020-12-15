@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "63C019C41C58DF76001F4187"
-               BuildableName = "Cymba&#x142;ki.app"
+               BuildableName = "Cymbalki.app"
                BlueprintName = "Cymbalki"
                ReferencedContainer = "container:Cymbalki.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "63C019C41C58DF76001F4187"
-            BuildableName = "Cymba&#x142;ki.app"
+            BuildableName = "Cymbalki.app"
             BlueprintName = "Cymbalki"
             ReferencedContainer = "container:Cymbalki.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "63C019C41C58DF76001F4187"
-            BuildableName = "Cymba&#x142;ki.app"
+            BuildableName = "Cymbalki.app"
             BlueprintName = "Cymbalki"
             ReferencedContainer = "container:Cymbalki.xcodeproj">
          </BuildableReference>
