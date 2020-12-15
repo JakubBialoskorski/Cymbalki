@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63C019C91C58DF76001F4187 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C019C81C58DF76001F4187 /* AppDelegate.swift */; };
+		63C019CB1C58DF76001F4187 /*  VIewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C019CA1C58DF76001F4187 /*  VIewController.swift */; };
+		63C019CE1C58DF76001F4187 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63C019CC1C58DF76001F4187 /* Main.storyboard */; };
+		63C019D01C58DF76001F4187 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63C019CF1C58DF76001F4187 /* Assets.xcassets */; };
+		63C019D31C58DF76001F4187 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63C019D11C58DF76001F4187 /* LaunchScreen.storyboard */; };
+		63C019EF1C58E4AD001F4187 /* note1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 63C019E81C58E4AD001F4187 /* note1.wav */; };
+		63C019F01C58E4AD001F4187 /* note2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 63C019E91C58E4AD001F4187 /* note2.wav */; };
+		63C019F11C58E4AD001F4187 /* note3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 63C019EA1C58E4AD001F4187 /* note3.wav */; };
+		63C019F21C58E4AD001F4187 /* note4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 63C019EB1C58E4AD001F4187 /* note4.wav */; };
+		63C019F31C58E4AD001F4187 /* note5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 63C019EC1C58E4AD001F4187 /* note5.wav */; };
+		63C019F41C58E4AD001F4187 /* note6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 63C019ED1C58E4AD001F4187 /* note6.wav */; };
+		63C019F51C58E4AD001F4187 /* note7.wav in Resources */ = {isa = PBXBuildFile; fileRef = 63C019EE1C58E4AD001F4187 /* note7.wav */; };
+		F0A7FE32BAE6FAC2E1C6F7E7 /* Pods_Cymbalki.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE3415E0826E88075789E1F6 /* Pods_Cymbalki.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		41C7CB735E858EFBD5268ECD /* Pods-Cymbalki.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cymbalki.release.xcconfig"; path = "Target Support Files/Pods-Cymbalki/Pods-Cymbalki.release.xcconfig"; sourceTree = "<group>"; };
+		63C019C51C58DF76001F4187 /* Cymbalki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cymbalki.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63C019C81C58DF76001F4187 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		63C019CA1C58DF76001F4187 /*  VIewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " VIewController.swift"; sourceTree = "<group>"; };
+		63C019CD1C58DF76001F4187 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63C019CF1C58DF76001F4187 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63C019D21C58DF76001F4187 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63C019D41C58DF76001F4187 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63C019E81C58E4AD001F4187 /* note1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note1.wav; sourceTree = "<group>"; };
+		63C019E91C58E4AD001F4187 /* note2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note2.wav; sourceTree = "<group>"; };
+		63C019EA1C58E4AD001F4187 /* note3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note3.wav; sourceTree = "<group>"; };
+		63C019EB1C58E4AD001F4187 /* note4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note4.wav; sourceTree = "<group>"; };
+		63C019EC1C58E4AD001F4187 /* note5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note5.wav; sourceTree = "<group>"; };
+		63C019ED1C58E4AD001F4187 /* note6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note6.wav; sourceTree = "<group>"; };
+		63C019EE1C58E4AD001F4187 /* note7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note7.wav; sourceTree = "<group>"; };
+		A7090BCB3EA293DACC736215 /* Pods-Cymbalki.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cymbalki.debug.xcconfig"; path = "Target Support Files/Pods-Cymbalki/Pods-Cymbalki.debug.xcconfig"; sourceTree = "<group>"; };
+		AE3415E0826E88075789E1F6 /* Pods_Cymbalki.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cymbalki.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63C019C21C58DF76001F4187 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0A7FE32BAE6FAC2E1C6F7E7 /* Pods_Cymbalki.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24C6665E8D82E4F1AE94A283 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE3415E0826E88075789E1F6 /* Pods_Cymbalki.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6385B12D1C68C76C00E57640 /* Sound Files */ = {
+			isa = PBXGroup;
+			children = (
+				63C019E81C58E4AD001F4187 /* note1.wav */,
+				63C019E91C58E4AD001F4187 /* note2.wav */,
+				63C019EA1C58E4AD001F4187 /* note3.wav */,
+				63C019EB1C58E4AD001F4187 /* note4.wav */,
+				63C019EC1C58E4AD001F4187 /* note5.wav */,
+				63C019ED1C58E4AD001F4187 /* note6.wav */,
+				63C019EE1C58E4AD001F4187 /* note7.wav */,
+			);
+			name = "Sound Files";
+			sourceTree = "<group>";
+		};
+		63C019BC1C58DF76001F4187 = {
+			isa = PBXGroup;
+			children = (
+				63C019C71C58DF76001F4187 /* Cymbalki */,
+				63C019C61C58DF76001F4187 /* Products */,
+				699B84E73E0C981D23AAB388 /* Pods */,
+				24C6665E8D82E4F1AE94A283 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		63C019C61C58DF76001F4187 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63C019C51C58DF76001F4187 /* Cymbalki.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63C019C71C58DF76001F4187 /* Cymbalki */ = {
+			isa = PBXGroup;
+			children = (
+				63C019C81C58DF76001F4187 /* AppDelegate.swift */,
+				63C019CA1C58DF76001F4187 /*  VIewController.swift */,
+				63C019CC1C58DF76001F4187 /* Main.storyboard */,
+				63C019CF1C58DF76001F4187 /* Assets.xcassets */,
+				63C019D11C58DF76001F4187 /* LaunchScreen.storyboard */,
+				63C019D41C58DF76001F4187 /* Info.plist */,
+				6385B12D1C68C76C00E57640 /* Sound Files */,
+			);
+			path = Cymbalki;
+			sourceTree = "<group>";
+		};
+		699B84E73E0C981D23AAB388 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A7090BCB3EA293DACC736215 /* Pods-Cymbalki.debug.xcconfig */,
+				41C7CB735E858EFBD5268ECD /* Pods-Cymbalki.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63C019C41C58DF76001F4187 /* Cymbalki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63C019D71C58DF76001F4187 /* Build configuration list for PBXNativeTarget "Cymbalki" */;
+			buildPhases = (
+				19BC3009A675BEA56901472E /* [CP] Check Pods Manifest.lock */,
+				63C019C11C58DF76001F4187 /* Sources */,
+				63C019C21C58DF76001F4187 /* Frameworks */,
+				63C019C31C58DF76001F4187 /* Resources */,
+				45B132A3617E20FA64027E04 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cymbalki;
+			productName = Cymbalki;
+			productReference = 63C019C51C58DF76001F4187 /* Cymbalki.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63C019BD1C58DF76001F4187 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 1220;
+				ORGANIZATIONNAME = "";
+				TargetAttributes = {
+					63C019C41C58DF76001F4187 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 9ZJ7PL62MN;
+						LastSwiftMigration = 1220;
+					};
+				};
+			};
+			buildConfigurationList = 63C019C01C58DF76001F4187 /* Build configuration list for PBXProject "Cymbalki" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63C019BC1C58DF76001F4187;
+			productRefGroup = 63C019C61C58DF76001F4187 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63C019C41C58DF76001F4187 /* Cymbalki */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63C019C31C58DF76001F4187 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63C019F41C58E4AD001F4187 /* note6.wav in Resources */,
+				63C019F31C58E4AD001F4187 /* note5.wav in Resources */,
+				63C019F11C58E4AD001F4187 /* note3.wav in Resources */,
+				63C019EF1C58E4AD001F4187 /* note1.wav in Resources */,
+				63C019F21C58E4AD001F4187 /* note4.wav in Resources */,
+				63C019F01C58E4AD001F4187 /* note2.wav in Resources */,
+				63C019F51C58E4AD001F4187 /* note7.wav in Resources */,
+				63C019D31C58DF76001F4187 /* LaunchScreen.storyboard in Resources */,
+				63C019D01C58DF76001F4187 /* Assets.xcassets in Resources */,
+				63C019CE1C58DF76001F4187 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19BC3009A675BEA56901472E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cymbalki-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45B132A3617E20FA64027E04 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cymbalki/Pods-Cymbalki-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftySound/SwiftySound.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftySound.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cymbalki/Pods-Cymbalki-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63C019C11C58DF76001F4187 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63C019CB1C58DF76001F4187 /*  VIewController.swift in Sources */,
+				63C019C91C58DF76001F4187 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		63C019CC1C58DF76001F4187 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63C019CD1C58DF76001F4187 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		63C019D11C58DF76001F4187 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63C019D21C58DF76001F4187 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63C019D51C58DF76001F4187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63C019D61C58DF76001F4187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63C019D81C58DF76001F4187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7090BCB3EA293DACC736215 /* Pods-Cymbalki.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9ZJ7PL62MN;
+				INFOPLIST_FILE = Cymbalki/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = eu.bialoskorski.cymbalki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		63C019D91C58DF76001F4187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41C7CB735E858EFBD5268ECD /* Pods-Cymbalki.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9ZJ7PL62MN;
+				INFOPLIST_FILE = Cymbalki/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = eu.bialoskorski.cymbalki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63C019C01C58DF76001F4187 /* Build configuration list for PBXProject "Cymbalki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63C019D51C58DF76001F4187 /* Debug */,
+				63C019D61C58DF76001F4187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63C019D71C58DF76001F4187 /* Build configuration list for PBXNativeTarget "Cymbalki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63C019D81C58DF76001F4187 /* Debug */,
+				63C019D91C58DF76001F4187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63C019BD1C58DF76001F4187 /* Project object */;
+}

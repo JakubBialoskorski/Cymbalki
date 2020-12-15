@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Cymbalki" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xG0-wm-sdb"/>
+                        <viewControllerLayoutGuide type="bottom" id="Dkz-Bx-M9I"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0nu-A8-mkT" userLabel="Key1" customClass="roundButton" customModule="Cymbalki" customModuleProvider="target">
+                                <rect key="frame" x="152.5" y="28.5" width="70" height="70"/>
+                                <color key="backgroundColor" systemColor="systemRedColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="02h-A8-aCe"/>
+                                    <constraint firstAttribute="width" secondItem="0nu-A8-mkT" secondAttribute="height" multiplier="1:1" id="Tch-gj-b5h"/>
+                                    <constraint firstAttribute="width" constant="70" id="d3T-6H-f3C"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="notePressed:" destination="BYZ-38-t0r" eventType="touchDown" id="hUa-oa-OOJ"/>
+                                    <action selector="touchEnd:" destination="BYZ-38-t0r" eventType="touchUpInside" id="T5S-5r-gBr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AXG-hm-s2J" userLabel="Key3" customClass="roundButton" customModule="Cymbalki" customModuleProvider="target">
+                                <rect key="frame" x="152.5" y="208.5" width="70" height="70"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="Cab-LD-Ent"/>
+                                    <constraint firstAttribute="height" constant="70" id="f3I-oJ-Vex"/>
+                                    <constraint firstAttribute="width" secondItem="AXG-hm-s2J" secondAttribute="height" multiplier="1:1" id="rHe-ck-lfv"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="notePressed:" destination="BYZ-38-t0r" eventType="touchDown" id="aGu-W2-d1g"/>
+                                    <action selector="touchEnd:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9JW-Pi-LPr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jAj-d0-19d" userLabel="Key4" customClass="roundButton" customModule="Cymbalki" customModuleProvider="target">
+                                <rect key="frame" x="152.5" y="298.5" width="70" height="70"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="Bzc-az-K7i"/>
+                                    <constraint firstAttribute="width" secondItem="jAj-d0-19d" secondAttribute="height" multiplier="1:1" id="XUA-ur-s7n"/>
+                                    <constraint firstAttribute="width" constant="70" id="keh-hY-pdN"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="notePressed:" destination="BYZ-38-t0r" eventType="touchDown" id="dO7-uY-ADY"/>
+                                    <action selector="touchEnd:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vW1-X6-hK2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QG2-EG-XmS" userLabel="Key5" customClass="roundButton" customModule="Cymbalki" customModuleProvider="target">
+                                <rect key="frame" x="152.5" y="388.5" width="70" height="70"/>
+                                <color key="backgroundColor" red="0.030642598763558571" green="1" blue="0.93714816286447" alpha="0.84705882352941175" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="1xw-rU-ots"/>
+                                    <constraint firstAttribute="height" constant="70" id="7ow-jL-1YK"/>
+                                    <constraint firstAttribute="width" secondItem="QG2-EG-XmS" secondAttribute="height" multiplier="1:1" id="QSm-UV-Lbr"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="notePressed:" destination="BYZ-38-t0r" eventType="touchDown" id="hWR-AO-Lau"/>
+                                    <action selector="touchEnd:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gpu-Ir-JUi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cmn-i5-Ti5" userLabel="Key7" customClass="roundButton" customModule="Cymbalki" customModuleProvider="target">
+                                <rect key="frame" x="152.5" y="568.5" width="70" height="70"/>
+                                <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="cmn-i5-Ti5" secondAttribute="height" multiplier="1:1" id="cKU-Uc-fZk"/>
+                                    <constraint firstAttribute="width" constant="70" id="jmD-gG-Wqc"/>
+                                    <constraint firstAttribute="height" constant="70" id="uW4-rR-zTj"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="notePressed:" destination="BYZ-38-t0r" eventType="touchDown" id="pWc-D5-per"/>
+                                    <action selector="touchEnd:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TIS-cO-dMo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jEL-en-4rE" userLabel="Key6" customClass="roundButton" customModule="Cymbalki" customModuleProvider="target">
+                                <rect key="frame" x="152.5" y="478.5" width="70" height="70"/>
+                                <color key="backgroundColor" red="0.0" green="0.41479981359296314" blue="1" alpha="0.84705882352941175" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="40h-k2-Tet"/>
+                                    <constraint firstAttribute="width" constant="70" id="TNW-PF-7WI"/>
+                                    <constraint firstAttribute="width" secondItem="jEL-en-4rE" secondAttribute="height" multiplier="1:1" id="yem-Rv-xWH"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="notePressed:" destination="BYZ-38-t0r" eventType="touchDown" id="XZO-pX-igf"/>
+                                    <action selector="touchEnd:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mDM-Jv-Oqx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4YE-I3-mym" userLabel="Key2" customClass="roundButton" customModule="Cymbalki" customModuleProvider="target">
+                                <rect key="frame" x="152.5" y="118.5" width="70" height="70"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="3mk-ar-nIW"/>
+                                    <constraint firstAttribute="width" secondItem="4YE-I3-mym" secondAttribute="height" multiplier="1:1" id="iPY-st-KlP"/>
+                                    <constraint firstAttribute="height" constant="70" id="k5U-1f-jpj"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="notePressed:" destination="BYZ-38-t0r" eventType="touchDown" id="wkz-1t-WFI"/>
+                                    <action selector="touchEnd:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kXu-cb-Ff3"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="QG2-EG-XmS" firstAttribute="top" secondItem="jAj-d0-19d" secondAttribute="bottom" constant="20" id="0hc-ae-hQh"/>
+                            <constraint firstItem="jAj-d0-19d" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="BSq-f5-k7H"/>
+                            <constraint firstItem="jEL-en-4rE" firstAttribute="top" secondItem="QG2-EG-XmS" secondAttribute="bottom" constant="20" id="Hx0-Oz-qEg"/>
+                            <constraint firstItem="jAj-d0-19d" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IOU-wu-eE5"/>
+                            <constraint firstItem="cmn-i5-Ti5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LbG-7M-gLP"/>
+                            <constraint firstItem="jAj-d0-19d" firstAttribute="top" secondItem="AXG-hm-s2J" secondAttribute="bottom" constant="20" id="O95-gv-55S"/>
+                            <constraint firstItem="cmn-i5-Ti5" firstAttribute="top" secondItem="jEL-en-4rE" secondAttribute="bottom" constant="20" id="Ob1-5r-fpE"/>
+                            <constraint firstItem="4YE-I3-mym" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Q8J-yY-Eak"/>
+                            <constraint firstItem="AXG-hm-s2J" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Qrl-cM-SX0"/>
+                            <constraint firstItem="4YE-I3-mym" firstAttribute="top" secondItem="0nu-A8-mkT" secondAttribute="bottom" constant="20" id="TP2-CZ-U5f"/>
+                            <constraint firstItem="0nu-A8-mkT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UAh-kw-zHo"/>
+                            <constraint firstItem="QG2-EG-XmS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="YH4-gY-Hmp"/>
+                            <constraint firstItem="AXG-hm-s2J" firstAttribute="top" secondItem="4YE-I3-mym" secondAttribute="bottom" constant="20" id="sUp-2H-gdE"/>
+                            <constraint firstItem="jEL-en-4rE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yfj-ka-mnB"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="1oo-xn-Gkv" appends="YES" id="gOT-Nv-1CH"/>
+                        </connections>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="1oo-xn-Gkv">
+                    <connections>
+                        <action selector="handlePanWithRecognizer:" destination="BYZ-38-t0r" id="teZ-mf-V2q"/>
+                    </connections>
+                </panGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="234.40000000000001" y="244.22788605697153"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
