@@ -54,8 +54,9 @@ class ViewController: UIViewController {
 
 // set common settings for buttons
 class roundButton: UIButton {
-    override func didMoveToWindow() {
-        self.layer.cornerRadius = self.bounds.size.height/2
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        layer.cornerRadius = bounds.height/2
     }
 }
 
