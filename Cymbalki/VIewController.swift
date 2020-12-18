@@ -1,5 +1,4 @@
 import UIKit
-import AVFoundation
 import SwiftySound
 
 class ViewController: UIViewController {
