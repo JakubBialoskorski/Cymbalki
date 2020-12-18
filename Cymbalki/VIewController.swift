@@ -1,9 +1,12 @@
 import UIKit
+import AVFoundation
 import SwiftySound
 
 class ViewController: UIViewController {
     var lastButtonTouched: Int = 0
+    
     override func viewDidLoad() {
+        enableEvenIfSilent()
         super.viewDidLoad()
     }
     
@@ -34,6 +37,11 @@ class ViewController: UIViewController {
     //detect button release to reset alpha value
     @IBAction func touchEnd(_ sender: UIButton) {
         fadeAndUnfadeButton(ofThisButton: sender)
+    }
+    
+    //play sound even if silent mode is enabled
+    func enableEvenIfSilent() {
+        Sound.category = .playback
     }
     
     //play sound
