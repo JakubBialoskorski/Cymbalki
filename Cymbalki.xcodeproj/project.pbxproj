@@ -19,11 +19,11 @@
 		63C019F31C58E4AD001F4187 /* note5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 63C019EC1C58E4AD001F4187 /* note5.wav */; };
 		63C019F41C58E4AD001F4187 /* note6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 63C019ED1C58E4AD001F4187 /* note6.wav */; };
 		63C019F51C58E4AD001F4187 /* note7.wav in Resources */ = {isa = PBXBuildFile; fileRef = 63C019EE1C58E4AD001F4187 /* note7.wav */; };
-		F0A7FE32BAE6FAC2E1C6F7E7 /* Pods_Cymbalki.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE3415E0826E88075789E1F6 /* Pods_Cymbalki.framework */; };
+		BFB2D75807C8EFF806227048 /* Pods_Cymbalki.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A90690CB581372057AD2815 /* Pods_Cymbalki.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		41C7CB735E858EFBD5268ECD /* Pods-Cymbalki.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cymbalki.release.xcconfig"; path = "Target Support Files/Pods-Cymbalki/Pods-Cymbalki.release.xcconfig"; sourceTree = "<group>"; };
+		61CF426D734471A1FD607858 /* Pods-Cymbalki.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cymbalki.release.xcconfig"; path = "Target Support Files/Pods-Cymbalki/Pods-Cymbalki.release.xcconfig"; sourceTree = "<group>"; };
 		63C019C51C58DF76001F4187 /* Cymbalki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cymbalki.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63C019C81C58DF76001F4187 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63C019CA1C58DF76001F4187 /* VIewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIewController.swift; sourceTree = "<group>"; };
@@ -38,8 +38,8 @@
 		63C019EC1C58E4AD001F4187 /* note5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note5.wav; sourceTree = "<group>"; };
 		63C019ED1C58E4AD001F4187 /* note6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note6.wav; sourceTree = "<group>"; };
 		63C019EE1C58E4AD001F4187 /* note7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note7.wav; sourceTree = "<group>"; };
-		A7090BCB3EA293DACC736215 /* Pods-Cymbalki.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cymbalki.debug.xcconfig"; path = "Target Support Files/Pods-Cymbalki/Pods-Cymbalki.debug.xcconfig"; sourceTree = "<group>"; };
-		AE3415E0826E88075789E1F6 /* Pods_Cymbalki.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cymbalki.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67DE7F3F8A1825FCC6DC3C48 /* Pods-Cymbalki.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cymbalki.debug.xcconfig"; path = "Target Support Files/Pods-Cymbalki/Pods-Cymbalki.debug.xcconfig"; sourceTree = "<group>"; };
+		7A90690CB581372057AD2815 /* Pods_Cymbalki.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cymbalki.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,17 +47,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0A7FE32BAE6FAC2E1C6F7E7 /* Pods_Cymbalki.framework in Frameworks */,
+				BFB2D75807C8EFF806227048 /* Pods_Cymbalki.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		24C6665E8D82E4F1AE94A283 /* Frameworks */ = {
+		40F6FCC71944499AA598B43C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AE3415E0826E88075789E1F6 /* Pods_Cymbalki.framework */,
+				7A90690CB581372057AD2815 /* Pods_Cymbalki.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -82,7 +82,7 @@
 				63C019C71C58DF76001F4187 /* Cymbalki */,
 				63C019C61C58DF76001F4187 /* Products */,
 				699B84E73E0C981D23AAB388 /* Pods */,
-				24C6665E8D82E4F1AE94A283 /* Frameworks */,
+				40F6FCC71944499AA598B43C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,8 +111,8 @@
 		699B84E73E0C981D23AAB388 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A7090BCB3EA293DACC736215 /* Pods-Cymbalki.debug.xcconfig */,
-				41C7CB735E858EFBD5268ECD /* Pods-Cymbalki.release.xcconfig */,
+				67DE7F3F8A1825FCC6DC3C48 /* Pods-Cymbalki.debug.xcconfig */,
+				61CF426D734471A1FD607858 /* Pods-Cymbalki.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -124,11 +124,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 63C019D71C58DF76001F4187 /* Build configuration list for PBXNativeTarget "Cymbalki" */;
 			buildPhases = (
-				19BC3009A675BEA56901472E /* [CP] Check Pods Manifest.lock */,
+				0918D3C5F8083800941CF8FC /* [CP] Check Pods Manifest.lock */,
 				63C019C11C58DF76001F4187 /* Sources */,
 				63C019C21C58DF76001F4187 /* Frameworks */,
 				63C019C31C58DF76001F4187 /* Resources */,
-				45B132A3617E20FA64027E04 /* [CP] Embed Pods Frameworks */,
+				D88C12618C4B61502A21CEC4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -195,7 +195,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		19BC3009A675BEA56901472E /* [CP] Check Pods Manifest.lock */ = {
+		0918D3C5F8083800941CF8FC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -217,18 +217,17 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		45B132A3617E20FA64027E04 /* [CP] Embed Pods Frameworks */ = {
+		D88C12618C4B61502A21CEC4 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Cymbalki/Pods-Cymbalki-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SwiftySound/SwiftySound.framework",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cymbalki/Pods-Cymbalki-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftySound.framework",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cymbalki/Pods-Cymbalki-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -376,13 +375,13 @@
 		};
 		63C019D81C58DF76001F4187 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A7090BCB3EA293DACC736215 /* Pods-Cymbalki.debug.xcconfig */;
+			baseConfigurationReference = 67DE7F3F8A1825FCC6DC3C48 /* Pods-Cymbalki.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = 9ZJ7PL62MN;
 				INFOPLIST_FILE = Cymbalki/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -398,13 +397,13 @@
 		};
 		63C019D91C58DF76001F4187 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 41C7CB735E858EFBD5268ECD /* Pods-Cymbalki.release.xcconfig */;
+			baseConfigurationReference = 61CF426D734471A1FD607858 /* Pods-Cymbalki.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = 9ZJ7PL62MN;
 				INFOPLIST_FILE = Cymbalki/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
