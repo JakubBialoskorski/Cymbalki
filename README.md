@@ -1,9 +1,5 @@
 # Cymbalki
 
-<img src="screenshots/screenshot1.png" alt="drawing" style="width:200px;"/>&nbsp;&nbsp;&nbsp;&nbsp;<img src="screenshots/screenshot2.png" alt="drawing" style="width:200px;"/>
-
----
-
 ### Troubleshooting
 
 #### Phase script execution failed with non-zero code
