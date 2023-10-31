@@ -1,8 +1,12 @@
 # Cymbalki
 
-## Troubleshooting
+<img src="screenshots/screenshot1.png" alt="drawing" style="width:200px;"/>&nbsp;&nbsp;&nbsp;&nbsp;<img src="screenshots/screenshot2.png" alt="drawing" style="width:200px;"/>
 
-### Phase script execution failed with non-zero code
+---
+
+### Troubleshooting
+
+#### Phase script execution failed with non-zero code
 
 First, close XCode and delete `Podfile.lock`, `Pods` directory, `xcworkspace`.
 
@@ -12,6 +16,6 @@ Go to `Pods/Target Support Files/Pods-Cymbalki/Pods-Cymbalki-frameworks`, line 4
 
 Change `source="$(readlink "${source}")"` to `source="$(readlink -f "${source}")"`
 
-### SDK does not contain libarclite at the path
+#### SDK does not contain libarclite at the path
 
 Go to pods configuration, make it available to iOS 14 everywhere
