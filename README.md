@@ -1,5 +1,9 @@
 # Cymbalki
 
+Minimalistic music app for kids.
+
+![Example1](/screenshots/1.png?raw=true)
+
 ### Troubleshooting
 
 #### Phase script execution failed with non-zero code
